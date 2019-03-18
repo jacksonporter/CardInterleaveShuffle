@@ -1,5 +1,5 @@
 # CardInterleaveShuffle
-### This repository contains code for a simpele 52 card interleave shuffle.
+### This repository contains code for a simple 52 card interleave shuffle.
 #### Code is written in C#. Explaination below:
 
 Rules:
