@@ -57,20 +57,20 @@ namespace CardInterleaveShuffle
             var list1 = new List<int>();
             var list2 = new List<int>();
 
-            /* Move contents from left half of the orginal list into list1. */
-            for(int i = 0; i < (listSize / 2); i++)
+            /* Move contents from left half of the original list into list1. */
+            for (int i = 0; i < (listSize / 2); i++)
             {
                 list1.Add(cards[0]);
                 cards.RemoveAt(0);
             }
-            /* Move contents from right half of the orginal list into list2. */
+            /* Move contents from right half of the original list into list2. */
             for (int i = 0; i < (listSize / 2); i++)
             {
                 list2.Add(cards[0]);
                 cards.RemoveAt(0);
             }
 
-            /* Add cards back into the orginal list, but interleaved. */
+            /* Add cards back into the original list, but interleaved. */
             for (int i = 0; i < (52 / 2); i++)
             {
                 cards.Add(list1[i]);
